@@ -1,0 +1,126 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9; 
+}
+
+.left {
+    background-color: #141414; 
+    color: white;
+    width: 20%; 
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.profile-pic {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+/* Skills Section */
+.skills-section {
+    margin-top: 180px; 
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px; 
+    color: white; 
+}
+
+.skills-section h2 {
+    color: white; 
+}
+
+.education-section {
+    margin-top: 20px; 
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
+    color: white; 
+}
+
+.education-section h2 {
+    color: white; 
+}
+
+.languages-section {
+    margin-top: 20px; 
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 5px; 
+    color: white; 
+}
+
+.languages-section h2 {
+    color: white; 
+}
+
+.right {
+    background-color: #ecf0f1; 
+    color: black;
+    width: 80%; 
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 20px; 
+}
+
+.about-me-section,
+.work-experience-section,
+.certifications-section,
+.courses-section,
+.contact-section {
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 5px; 
+    margin: 0;  
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  
+}
+
+.name {
+    font-size: 32px; 
+    font-weight: bold; 
+    margin: 0 0 20px; 
+}
+
+.section-title {
+    font-size: 24px; 
+    margin: 0 0 10px;  
+    color: #2c3e50;  
+    border-bottom: 2px solid #2c3e50; 
+    padding-bottom: 5px; 
+}
+
+.job-title {
+    font-size: 18px; 
+    margin: 5px 0;  
+    font-weight: bold;
+}
+
+.job-description,
+.about-description {
+    margin: 5px 0 10px;  
+    line-height: 1.6;  
+}
+
+.contact-info {
+    margin: 3px 0;  
+    font-size: 16px; 
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+ul li {
+    margin: 5px 0; 
+    font-size: 16px; 
+}
